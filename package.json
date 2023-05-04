@@ -1,0 +1,30 @@
+{
+  "name": "vite-production-template",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "native-js": "esbuild src/assets/js/*.js --outdir=dist/assets/js/ && esbuild src/assets/js/module/*.js --outdir=dist/assets/js/module/",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^5.0.0",
+    "autoprefixer": "^10.4.14",
+    "css-declaration-sorter": "^6.4.0",
+    "postcss": "^8.4.23",
+    "postcss-normalize-charset": "^6.0.0",
+    "postcss-sort-media-queries": "^5.1.0",
+    "sass": "^1.62.1",
+    "vite": "^4.3.2",
+    "vite-plugin-handlebars": "^1.6.0"
+  },
+  "browserslist": [
+    "last 2 versions",
+    "> 5%",
+    "Firefox ESR",
+    "not dead"
+  ],
+  "dependencies": {}
+}
