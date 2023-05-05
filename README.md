@@ -57,5 +57,5 @@
 * 諸条件からTypeScriptを使用しないほうが良い場合があることを考慮し、ネイティブJSを「src/」からそのまま「dist/」へ書き出す選択肢を用意したので、フォールバックとして利用OK
   * CLIコマンド
     * `npm native-js`(`npm`は`yarn`に置き換え可能)。buildコマンド後に上書きする形で利用すること
-  * こちらはbundleやminifyを行わない
+  * こちらはbundleやminifyを行わない設定にしている
   
