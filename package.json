@@ -7,16 +7,21 @@
     "dev": "vite",
     "build": "vite build",
     "native-js": "esbuild src/assets/js/*.js --outdir=dist/assets/js/ && esbuild src/assets/js/module/*.js --outdir=dist/assets/js/module/",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "eslint": "eslint --ext js,ts ."
   },
   "devDependencies": {
     "@fullhuman/postcss-purgecss": "^5.0.0",
+    "@typescript-eslint/eslint-plugin": "^5.59.2",
+    "@typescript-eslint/parser": "^5.59.2",
     "autoprefixer": "^10.4.14",
     "css-declaration-sorter": "^6.4.0",
+    "eslint": "^8.40.0",
     "postcss": "^8.4.23",
     "postcss-normalize-charset": "^6.0.0",
     "postcss-sort-media-queries": "^5.1.0",
     "sass": "^1.62.1",
+    "typescript": "^5.0.4",
     "vite": "^4.3.2",
     "vite-plugin-handlebars": "^1.6.0"
   },
